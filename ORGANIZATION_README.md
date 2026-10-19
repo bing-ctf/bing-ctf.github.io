@@ -15,7 +15,7 @@
 We are the student cybersecurity club and competitive **MITRE Embedded Capture the Flag (eCTF)** team at Binghamton University. We explore software security, reverse engineering, binary exploitation, applied cryptography, and embedded hardware attacks.
 
 - **#13 Globally** out of 114 international universities in MITRE eCTF 2026.
-- **#1 in New York State** (only NY institution in the global Top 20).
+- **#1 in New York State** in MITRE eCTF 2026 (only NY institution in the global Top 20).
 
 ---
 
