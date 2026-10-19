@@ -44,10 +44,7 @@
   flex-direction: column;
 }
 
-.progression-card.highlight {
-  border-color: var(--bing-green);
-  background: linear-gradient(180deg, var(--bing-green-subtle) 0%, var(--surface-card) 60%);
-}
+
 
 .progression-year {
   font-family: var(--font-mono);
@@ -67,9 +64,7 @@
   margin-bottom: 0.2rem;
 }
 
-.progression-card.highlight .progression-rank {
-  color: var(--bing-green);
-}
+
 
 .progression-title {
   font-size: 1rem;
@@ -244,10 +239,7 @@
   border-color: var(--border-strong);
 }
 
-.tier-card.tier-popular {
-  border: 2px solid var(--bing-green);
-  box-shadow: 0 6px 24px rgba(0, 90, 67, 0.1);
-}
+
 
 .tier-badge {
   font-family: var(--font-mono);
@@ -536,10 +528,13 @@
 /* Responsive */
 @media (max-width: 900px) {
   .progression-grid,
-  .tiers-grid,
   .media-grid,
   .join-steps {
     grid-template-columns: 1fr;
+  }
+
+  .tiers-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .discord-box {
@@ -549,5 +544,11 @@
 
   .discord-qr-wrap {
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .tiers-grid {
+    grid-template-columns: 1fr;
   }
 }

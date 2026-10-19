@@ -368,6 +368,12 @@ code, pre {
   color: var(--text-secondary);
 }
 
+.tag-mono {
+  background: var(--surface-muted);
+  color: var(--text-secondary);
+  border-color: var(--border-default);
+}
+
 .tag-green {
   background: var(--bing-green-subtle);
   color: var(--bing-green);
@@ -452,10 +458,10 @@ code, pre {
 }
 
 .hero-center-logo-card {
-  background: linear-gradient(180deg, var(--surface-subtle) 0%, var(--surface-card) 100%);
-  border: 1px solid var(--border-card);
+  background: linear-gradient(180deg, var(--bing-green-subtle) 0%, var(--surface-card) 65%);
+  border: 2px solid var(--bing-green);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 4px 18px rgba(0, 90, 67, 0.12);
   padding: 1.25rem 1rem;
   display: flex;
   align-items: center;
@@ -465,8 +471,8 @@ code, pre {
 
 .hero-center-logo-card:hover {
   transform: translateY(-2px);
-  border-color: var(--bing-green);
-  box-shadow: 0 4px 18px rgba(0, 90, 67, 0.12);
+  border-color: var(--bing-green-dark);
+  box-shadow: 0 6px 22px rgba(0, 90, 67, 0.18);
 }
 
 .hero-center-logo {
@@ -1053,14 +1059,31 @@ code, pre {
     grid-template-columns: 1fr;
     max-width: 380px;
     margin: 0 auto;
+    gap: 1rem;
   }
 
   .hero-center-logo-card {
-    min-height: 180px;
+    order: -1;
+    min-height: 170px;
   }
 
   .meeting-banner {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hero-trio-grid {
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: clamp(1.85rem, 6.5vw, 2.6rem);
   }
 }
 
