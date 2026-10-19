@@ -480,7 +480,7 @@ code, pre {
   gap: 1.25rem;
   align-items: stretch;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 1.5rem auto;
 }
 
 .hero-center-logo-card {
@@ -1127,13 +1127,20 @@ code, pre {
   .hero-trio-grid {
     grid-template-columns: 1fr;
     max-width: 380px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 1.25rem auto 1.5rem auto;
     gap: 1rem;
   }
 
   .hero-center-logo-card {
     order: -1;
     min-height: 170px;
+  }
+
+  .hero-cta-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .meeting-banner {
