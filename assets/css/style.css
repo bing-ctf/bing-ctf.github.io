@@ -392,8 +392,90 @@ code, pre {
    Split Hero Section with Photo Card
    ========================================================================== */
 .hero {
-  padding: 2rem 0 1.25rem;
+  padding: 2.25rem 0 1.5rem;
   position: relative;
+}
+
+.hero-centered {
+  padding: 2.5rem 0 1.75rem;
+  text-align: center;
+}
+
+.hero-content-center {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content-center .hero-title {
+  margin-bottom: 0.75rem;
+}
+
+.hero-content-center .hero-subtitle {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+}
+
+.hero-cta-center {
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.hero-meeting-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  background-color: var(--surface-card);
+  border: 1px solid var(--border-card);
+  padding: 0.35rem 1rem;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Symmetrical Hero Trio: #13 | Logo | #1 */
+.hero-trio-grid {
+  display: grid;
+  grid-template-columns: 1fr 240px 1fr;
+  gap: 1.25rem;
+  align-items: stretch;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-center-logo-card {
+  background: linear-gradient(180deg, var(--surface-subtle) 0%, var(--surface-card) 100%);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 1.25rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.hero-center-logo-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--bing-green);
+  box-shadow: 0 4px 18px rgba(0, 90, 67, 0.12);
+}
+
+.hero-center-logo {
+  max-width: 175px;
+  max-height: 145px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(0, 45, 30, 0.08));
 }
 
 .hero-split {
@@ -965,6 +1047,16 @@ code, pre {
 
   .mobile-menu-btn {
     display: inline-flex;
+  }
+
+  .hero-trio-grid {
+    grid-template-columns: 1fr;
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .hero-center-logo-card {
+    min-height: 180px;
   }
 
   .meeting-banner {
