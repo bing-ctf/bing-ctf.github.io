@@ -12,8 +12,8 @@ The official website for **Binghamton CTF Club** and the **Binghamton University
 - **Design Language**: Minimalist, hyper-refined light mode aesthetic inspired by [`pratikkamble.com`](https://pratikkamble.com) with Binghamton University Green (`#005A43`) branding and collegiate human touch.
 - **Features**:
   - Pure, clean light mode interface with optimized vertical density and minimal scrolling.
-  - Multi-page navigation (`Home`, `eCTF`, `Team`, `Sponsors`, `Join Us`).
-  - Structured sponsorship prospectus (Bronze $1,000, Silver $2,000, Gold $3,000, Platinum; separating student funding needs vs. corporate return benefits).
+  - Multi-page navigation (`Home`, `Team`, `eCTF`, `Sponsors`, `Join Us`) with Instagram-style mobile bottom navigation bar.
+  - Structured sponsorship prospectus (Bronze $1,000, Silver $2,000, Gold $3,000; separating student funding needs vs. corporate return benefits).
   - High-resolution team photography, Past Squads side-by-side gallery, and Fab Lab meeting highlights.
   - One-click copyable email buttons across team and sponsorship pages.
   - One-click Discord invite (`https://discord.gg/Rn5ER6Tw`) with embedded scan QR code.
@@ -27,7 +27,7 @@ The official website for **Binghamton CTF Club** and the **Binghamton University
 bing-ctf.github.io/
 ├── index.html                   # Main Club Portal (Hero with Club Logo, Duo Ranks #13 & #1 NY, Focus Tracks, Meetings)
 ├── ectf.html                    # MITRE eCTF (Rank Progression, Past Squads Side-by-Side Photos)
-├── sponsors.html                # Club Sponsorship (What Funds Support vs. What Sponsors Receive, Bronze/Silver/Gold/Platinum)
+├── sponsors.html                # Club Sponsorship (What Funds Support vs. What Sponsors Receive, Bronze/Silver/Gold)
 ├── team.html                    # Leadership & Team (Advisor Dr. Prakash, Co-Captains Samruddhi & Pratik, Student Testimonials)
 ├── join.html                    # New Member Guide (3-Step Onboarding, Discord QR, 4-Box Single-Row Courses & FAQ)
 ├── README.md                    # Repository documentation

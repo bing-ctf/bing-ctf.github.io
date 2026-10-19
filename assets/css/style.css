@@ -308,7 +308,7 @@ code, pre {
   padding: 0.55rem 1.15rem;
   font-size: 0.92rem;
   font-weight: 600;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-md);
   border: 1px solid transparent;
   cursor: pointer;
   text-decoration: none;
@@ -374,6 +374,7 @@ code, pre {
 .btn-sm {
   padding: 0.35rem 0.8rem;
   font-size: 0.82rem;
+  border-radius: var(--radius-sm);
 }
 
 /* ==========================================================================
@@ -387,7 +388,7 @@ code, pre {
   font-size: 0.78rem;
   font-family: var(--font-mono);
   font-weight: 500;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-sm);
   border: 1px solid var(--border-default);
   background: var(--surface-muted);
   color: var(--text-secondary);
@@ -468,7 +469,7 @@ code, pre {
   background-color: var(--surface-card);
   border: 1px solid var(--border-card);
   padding: 0.35rem 1rem;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
 }
 
@@ -616,7 +617,7 @@ code, pre {
   background: rgba(0, 90, 67, 0.92);
   color: #ffffff;
   padding: 0.25rem 0.7rem;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-sm);
   font-size: 0.76rem;
   font-weight: 700;
   backdrop-filter: blur(8px);
@@ -1089,7 +1090,7 @@ code, pre {
     padding: 0;
     width: 36px;
     height: 36px;
-    border-radius: var(--radius-pill);
+    border-radius: var(--radius-md);
     display: inline-flex;
     align-items: center;
     justify-content: center;
