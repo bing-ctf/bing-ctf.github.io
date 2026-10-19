@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>eCTF Journey | Binghamton CTF Club</title>
+  <meta name="description" content="Binghamton University's MITRE eCTF journey. Ranked #13 globally among 114 universities and #1 in NY State.">
+  <meta name="keywords" content="eCTF, MITRE eCTF, Binghamton University, embedded security, hardware hacking, fault injection, Watson College">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="eCTF Journey | Binghamton CTF Club">
+  <meta property="og:description" content="Ranked #13 globally among 114 universities in MITRE eCTF 2026. Hardware security, fault injection, and firmware defense.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bing-ctf.github.io/ectf.html">
+  <meta property="og:image" content="https://bing-ctf.github.io/assets/images/ectf-team-2026.jpg">
+
+  <!-- Favicon & Styles -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/ectf.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="brand-link" aria-label="Binghamton CTF Club Home">
+        <img src="assets/images/logo.png" alt="Binghamton CTF Logo" class="brand-logo">
+        <span>Binghamton <span style="color:var(--bing-green)">CTF</span></span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="ectf.html" class="nav-link active">eCTF</a></li>
+          <li><a href="team.html" class="nav-link">Team</a></li>
+          <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+          <li><a href="join.html" class="nav-link">Join Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://github.com/bing-ctf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="GitHub Organization">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          <span class="desktop-only">GitHub</span>
+        </a>
+
+        <a href="https://discord.gg/Rn5ER6Tw" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-sm">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/></svg>
+          <span>Discord</span>
+        </a>
+
+        <button type="button" class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" role="dialog" aria-label="Mobile Navigation">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="ectf.html" class="nav-link active">eCTF</a>
+    <a href="team.html" class="nav-link">Team</a>
+    <a href="sponsors.html" class="nav-link">Sponsors</a>
+    <a href="join.html" class="nav-link">Join Us</a>
+    <hr style="border:none;border-top:1px solid var(--border-default);margin:0.5rem 0;">
+    <a href="https://discord.gg/Rn5ER6Tw" target="_blank" rel="noopener noreferrer" class="btn btn-discord" style="width:100%">Join Our Discord</a>
+    <a href="https://github.com/bing-ctf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;margin-top:0.5rem">GitHub Organization</a>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">MITRE eCTF Journey</h1>
+        <p class="page-lead">
+          In two competitive seasons, Binghamton University rose from #26 to #13 globally among 114 universities, establishing the top collegiate embedded security program in New York.
+        </p>
+      </div>
+    </section>
+
+    <!-- Progression Strip -->
+    <!-- Progression Strip -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <h2 class="section-title">26th &rarr; 13th &rarr; Top 10 Goal</h2>
+
+        <div class="progression-grid">
+          <div class="progression-card">
+            <div class="progression-year">2025 · First Year</div>
+            <div class="progression-rank">#26</div>
+            <div class="progression-title">Binghamton Debut</div>
+            <p class="progression-desc">
+              Finished #26 globally and #2 in New York in our very first year competing, on volunteer student hours.
+            </p>
+            <div>
+              <span class="tag tag-mono">#26 Global</span>
+              <span class="tag tag-mono">#2 in NY</span>
+            </div>
+          </div>
+
+          <div class="progression-card highlight">
+            <div class="progression-year">2026 · Second Year</div>
+            <div class="progression-rank">#13</div>
+            <div class="progression-title">Protecting Chip Foundry Files</div>
+            <p class="progression-desc">
+              Ranked #13 of 114 international universities. Only NY school in the global Top 20. Zero software defense breaches.
+            </p>
+            <div>
+              <span class="tag tag-green">#13 Global</span>
+              <span class="tag tag-green">#1 in NY State</span>
+            </div>
+          </div>
+
+          <div class="progression-card">
+            <div class="progression-year">Spring 2027 · Next Objective</div>
+            <div class="progression-rank">Top 10</div>
+            <div class="progression-title">Hardware Attack Lab</div>
+            <p class="progression-desc">
+              Training members in physical fault injection, EMFI, and voltage glitching to dominate both attack and defense.
+            </p>
+            <div>
+              <span class="tag tag-gold">Top 10 Target</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Squads: Side-by-Side 2025 & 2026 Photography -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Past Squads</h2>
+          <p class="section-desc">Binghamton University eCTF competition teams across our 2025 and 2026 seasons.</p>
+        </div>
+
+        <div class="media-grid">
+          <div class="media-card">
+            <img src="assets/images/ectf-team-2025.jpg" alt="Binghamton eCTF 2025 inaugural team" loading="lazy">
+            <div class="media-card-caption">
+              <div class="media-card-title">2025 Competition Squad</div>
+              <div class="media-card-desc">Binghamton's debut season in MITRE eCTF, finishing #26 globally and #2 in New York.</div>
+            </div>
+          </div>
+
+          <div class="media-card">
+            <img src="assets/images/ectf-team-2026.jpg" alt="Binghamton eCTF 2026 team in the lab" loading="lazy">
+            <div class="media-card-caption">
+              <div class="media-card-title">2026 Competition Squad</div>
+              <div class="media-card-desc">Watson College students engineering secure firmware in the Fab Lab, finishing #13 globally and #1 in NY State.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Step CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="callout-banner">
+          <div>
+            <h3 style="font-size:1.6rem;margin-bottom:0.35rem">Join or Sponsor Binghamton eCTF</h3>
+            <p style="max-width:560px;font-size:0.95rem;color:var(--text-secondary);margin:0">
+              Students can join our Thursday workshops in the Fab Lab. Organizations can sponsor dev boards and student travel.
+            </p>
+          </div>
+          <div style="display:flex;gap:0.75rem;flex-wrap:wrap">
+            <a href="join.html" class="btn btn-primary">Join Team</a>
+            <a href="sponsors.html" class="btn btn-secondary">Sponsor Lab</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Binghamton CTF Club</h4>
+          <p>Watson College · School of Computing · Binghamton University</p>
+        </div>
+        <div class="footer-col">
+          <h5>Pages</h5>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="ectf.html" class="footer-link">eCTF</a></li>
+            <li><a href="team.html" class="footer-link">Team</a></li>
+            <li><a href="sponsors.html" class="footer-link">Sponsors</a></li>
+            <li><a href="join.html" class="footer-link">Join Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Links</h5>
+          <ul class="footer-links">
+            <li><a href="https://discord.gg/Rn5ER6Tw" target="_blank" rel="noopener noreferrer" class="footer-link">Discord</a></li>
+            <li><a href="https://github.com/bing-ctf" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a></li>
+            <li><a href="https://ectf.mitre.org" target="_blank" rel="noopener noreferrer" class="footer-link">MITRE eCTF</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contacts</h5>
+          <ul class="footer-links">
+            <li><a href="mailto:aprakash@binghamton.edu" class="footer-link">Dr. Aravind Prakash</a></li>
+            <li><a href="mailto:sdeshp11@binghamton.edu" class="footer-link">Samruddhi Deshpande</a></li>
+            <li><a href="mailto:pkamble1@binghamton.edu" class="footer-link">Pratik Kamble</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Binghamton CTF Club · Binghamton University. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
