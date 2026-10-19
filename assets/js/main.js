@@ -31,9 +31,9 @@
       });
     }
 
-    // 2. Highlight Current Page Link in Nav
+    // 2. Highlight Current Page Link in Nav & Bottom Nav
     const currentPath = window.location.pathname.split('/').pop() || 'index.html';
-    document.querySelectorAll('.nav-link').forEach(link => {
+    document.querySelectorAll('.nav-link, .bottom-nav-item').forEach(link => {
       const href = link.getAttribute('href');
       if (href === currentPath || (currentPath === '' && href === 'index.html')) {
         link.classList.add('active');
