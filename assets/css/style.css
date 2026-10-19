@@ -1012,9 +1012,33 @@ code, pre {
 .footer-link {
   font-size: 0.88rem;
   color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--transition-fast);
 }
 
+.footer-link strong {
+  display: block;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 0.88rem;
+  transition: color var(--transition-fast);
+}
+
+.footer-link:hover strong,
 .footer-link:hover {
+  color: var(--bing-green);
+}
+
+.footer-email {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  margin-top: 1px;
+  transition: color var(--transition-fast);
+}
+
+.footer-link:hover .footer-email {
   color: var(--bing-green);
 }
 
