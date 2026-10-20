@@ -7,7 +7,7 @@
 # 1. Overview & Institution
 Binghamton CTF Club is the official student cybersecurity club and competitive Embedded Capture the Flag (eCTF) team representing Binghamton University (State University of New York - SUNY). The organization is based at the Thomas J. Watson College of Engineering and Applied Science within the School of Computing.
 
-In 2026, Binghamton University achieved a historic milestone in collegiate cybersecurity by finishing **#13 globally** out of 114 international university teams in the prestigious MITRE eCTF competition. Binghamton was the **#1 ranked university in New York State** and the only New York institution to place in the global Top 20.
+In 2026, Binghamton University achieved a historic milestone in collegiate cybersecurity by finishing **#13 globally** out of 161 international teams in the prestigious MITRE eCTF competition. Binghamton was the **#1 ranked university in New York State** and the only New York institution to place in the global Top 20.
 
 The club meets weekly on Thursdays at 5:00 PM in the Fab Lab located within the Engineering Building on the Binghamton University campus. Membership is free and open to all students across all majors and experience levels.
 
@@ -63,10 +63,10 @@ Exposes common web vulnerabilities from the OWASP Top 10 (SQL Injection, Server-
 # 4. MITRE eCTF Competition Record
 
 ### 2025 Debut Season (#26 Globally, #2 in New York)
-In Binghamton University's inaugural season participating in the MITRE Embedded Capture the Flag competition, a student team operating entirely on volunteer hours secured 26th place internationally and 2nd place in New York State.
+In Binghamton University's inaugural season participating in the MITRE Embedded Capture the Flag competition, a student team operating entirely on volunteer hours secured 26th place internationally out of 116 teams and 2nd place in New York State.
 
 ### 2026 Season (#13 Globally, #1 in New York State)
-In its second competitive year, the Binghamton squad competed against 114 university teams worldwide, protecting intellectual property within simulated semiconductor foundry manufacturing files. Binghamton achieved a final ranking of #13 internationally, suffered zero software defense breaches, and finished as the top-ranked university in New York State.
+In its second competitive year, the Binghamton squad competed against 161 teams worldwide, protecting intellectual property within simulated semiconductor foundry manufacturing files. Binghamton achieved a final ranking of #13 internationally, suffered zero software defense breaches, and finished as the top-ranked university in New York State.
 
 ### 2027 Objective (Global Top 10)
 For the 2027 season, Binghamton CTF is outfitting a dedicated physical hardware security lab in Watson College to specialize in electromagnetic fault injection (EMFI), power side-channel analysis, and physical glitching.
@@ -75,19 +75,23 @@ For the 2027 season, Binghamton CTF is outfitting a dedicated physical hardware 
 
 # 5. Sponsorship Prospectus
 
-The club offers corporate partnerships across three tiers to support student travel, lab equipment, and weekly meeting supplies:
+The club offers corporate partnerships across four tiers to support student travel, lab equipment, team apparel, and weekly meeting supplies:
 
 ### Bronze Tier ($1,000 / year)
-- **What Funds Support**: Weekly hack night pizza and soda, plus student AI developer subscriptions.
-- **Corporate Returns**: Logo and link on the club website and GitHub organization, sponsor role and internship posting permissions in the club Discord (100+ members), direct club-wide email announcements for open positions, and an annual certificate of appreciation.
+- **What Funds Support**: Pizza and soda for weekly club meetings sustaining 30+ students in the Fab Lab.
+- **Corporate Returns**: Logo and link on the club website and GitHub organization, sponsor role and internship posting permissions in the club Discord (250+ members), direct club-wide email announcements for open positions, and an annual certificate of appreciation.
 
-### Silver Tier ($2,000 / year)
-- **What Funds Support**: ChipWhisperer glitching kits, target microcontroller development boards, and USB logic analyzers.
-- **Corporate Returns**: All Bronze benefits, direct recruiting access to student competition engineers, option to host an exclusive campus tech talk or lab workshop, recruiting swag distribution in the Fab Lab, and preferred student connections for summer internships.
+### Silver Tier ($3,000 / year)
+- **What Funds Support**: Official club merchandise, shirts, and team apparel featuring corporate sponsor logos.
+- **Corporate Returns**: All Bronze benefits, prominent logo printed on official club merchandise and apparel, direct recruiting access to student competition engineers, option to host an exclusive campus tech talk or lab workshop, and recruiting swag distribution in the Fab Lab.
 
-### Gold Tier ($3,000 / year)
-- **What Funds Support**: Student hotel, gasoline, and travel expenses to attend the MITRE eCTF competition finals in Bedford, Massachusetts.
-- **Corporate Returns**: All Silver and Bronze benefits, prominent corporate logo on official competition jerseys and lab banners, personalized 1-on-1 candidate recommendations, opportunity to co-host an annual hardware CTF challenge, and executive recognition across university news stories.
+### Gold Tier ($5,000 / year)
+- **What Funds Support**: Oscilloscopes, ChipWhisperer side-channel & fault injection kits, logic analyzers, and hardware testbenches.
+- **Corporate Returns**: All Silver and Bronze benefits, prominent corporate logo on competition jerseys and lab banners, personalized 1-on-1 candidate recommendations and resume book access, opportunity to co-host an annual hardware CTF challenge, and executive recognition across club announcements.
+
+### Platinum Tier ($8,000 / year)
+- **What Funds Support**: Full travel, flight, lodging, and registration expenses sending student finalists to CTF competitions and MITRE award ceremonies in Bedford, Massachusetts.
+- **Corporate Returns**: All Gold, Silver, and Bronze benefits, Title Sponsor billing across all competition submissions and press releases, dedicated company recruitment table and presentation at major club events, named hardware bench or challenge track in Watson Fab Lab, and VIP invitation to the end-of-season awards ceremony and showcase.
 
 ---
 

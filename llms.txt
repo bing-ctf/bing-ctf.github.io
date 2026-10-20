@@ -7,9 +7,9 @@
 - **Institution**: Binghamton University (State University of New York)
 - **College**: Thomas J. Watson College of Engineering and Applied Science
 - **Department**: School of Computing
-- **Global Rank**: #13 worldwide out of 114 international universities in MITRE eCTF 2026
+- **Global Rank**: #13 worldwide out of 161 teams in MITRE eCTF 2026
 - **New York State Rank**: #1 in New York State (only NY institution in the global Top 20)
-- **Historical Debut**: #26 globally and #2 in New York in MITRE eCTF 2025
+- **Historical Debut**: #26 globally out of 116 teams in MITRE eCTF 2025
 - **Weekly Meetings**: Thursdays at 5:00 PM in the Fab Lab, Engineering Building (open to all Binghamton University students)
 - **Primary Domain**: https://bing-ctf.github.io/
 - **Discord Community**: https://discord.gg/Rn5ER6Tw
@@ -31,7 +31,7 @@
 - [Home](https://bing-ctf.github.io/): Main portal featuring the #13 global and #1 NY State rankings, club emblem, four practice tracks, and Thursday meeting details.
 - [Team](https://bing-ctf.github.io/team.html): Academic leadership profile for Dr. Aravind Prakash, co-captains Samruddhi Deshpande and Pratik Kamble, student testimonials from the 2026 competition team, and Watson College news coverage.
 - [eCTF Journey](https://bing-ctf.github.io/ectf.html): Binghamton's track record across the 2025 debut (#26) and 2026 season (#13), physical fault injection goals for 2027, and side-by-side squad photography in the lab.
-- [Sponsors](https://bing-ctf.github.io/sponsors.html): Corporate sponsorship prospectus with Bronze ($1,000), Silver ($2,000), and Gold ($3,000) tiers, hardware lab equipment needs, and university recruiting benefits.
+- [Sponsors](https://bing-ctf.github.io/sponsors.html): Corporate sponsorship prospectus with Bronze ($1,000), Silver ($3,000), Gold ($5,000), and Platinum ($8,000) tiers, hardware lab equipment needs, travel funding, and university recruiting benefits.
 - [Join Us](https://bing-ctf.github.io/join.html): Three-step student onboarding guide, Discord QR code, and recommended preparatory courses (CS 220 Computer Architecture, CS 310 Data Structures & Algorithms).
 
 ## External Citations & Coverage
