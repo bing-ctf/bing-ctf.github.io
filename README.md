@@ -8,7 +8,7 @@ The official website for **Binghamton CTF Club**
 
 ## Contact & Inquiries
 
-- **Co-Captain**: Samruddhi Deshpande (`sdeshp11@binghamton.edu`)
+- **Co-Captain**: Samruddhi (Sammy) Deshpande (`sdeshp11@binghamton.edu`)
 - **Co-Captain**: Pratik Kamble (`pkamble1@binghamton.edu` · [pratikkamble.com](https://pratikkamble.com))
 - **Faculty Advisor**: Dr. Aravind Prakash (`aprakash@binghamton.edu` · [aravindprakash.com](https://www.aravindprakash.com))
 - **Weekly Meetings**: Every Thursday at 5:00 PM in the Fab Lab · Engineering Building

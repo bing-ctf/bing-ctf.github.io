@@ -28,7 +28,7 @@ The club meets weekly on Thursdays at 5:00 PM in the Fab Lab located within the 
 - **Website**: https://www.aravindprakash.com/
 
 ### Student Co-Captain
-- **Name**: Samruddhi "Sammy" Deshpande
+- **Name**: Samruddhi (Sammy) Deshpande
 - **Role**: 4+1 Master's Student in Computer Science
 - **Competition History**: Competed in both 2025 and 2026 MITRE eCTF campaigns.
 - **Technical Focus**: Defensive firmware architecture, cryptographic authentication protocols, and member onboarding.

@@ -18,7 +18,7 @@
 
 ## Academic & Student Leadership
 - **Dr. Aravind Prakash** (Faculty Lead & Advisor): Associate Professor of Computer Science at Binghamton University. Directs Systems Security and Binary Analysis research, integrating embedded security into the Watson College curriculum. Email: aprakash@binghamton.edu. Personal Website: https://www.aravindprakash.com/
-- **Samruddhi "Sammy" Deshpande** (Co-Captain): 4+1 Master's student in Computer Science at Binghamton University. Competed in both 2025 and 2026 eCTF campaigns, leading defensive firmware architecture, secure boot protocols, and onboarding. Email: sdeshp11@binghamton.edu
+- **Samruddhi (Sammy) Deshpande** (Co-Captain): 4+1 Master's student in Computer Science at Binghamton University. Competed in both 2025 and 2026 eCTF campaigns, leading defensive firmware architecture, secure boot protocols, and onboarding. Email: sdeshp11@binghamton.edu
 - **Pratik Kamble** (Co-Captain): Doctoral researcher in Computer Science at Binghamton University specializing in binary analysis, reverse engineering, and software debloating. Co-captain for the 2026 and 2027 competitive campaigns. Email: pkamble1@binghamton.edu. Personal Website: https://pratikkamble.com
 
 ## Technical Disciplines & Focus Areas
@@ -29,7 +29,7 @@
 
 ## Core Website Sections
 - [Home](https://bing-ctf.github.io/): Main portal featuring the #13 global and #1 NY State rankings, club emblem, four practice tracks, and Thursday meeting details.
-- [Team](https://bing-ctf.github.io/team.html): Academic leadership profile for Dr. Aravind Prakash, co-captains Samruddhi Deshpande and Pratik Kamble, student testimonials from the 2026 competition team, and Watson College news coverage.
+- [Team](https://bing-ctf.github.io/team.html): Academic leadership profile for Dr. Aravind Prakash, co-captains Samruddhi (Sammy) Deshpande and Pratik Kamble, student testimonials from the 2026 competition team, and Watson College news coverage.
 - [eCTF Journey](https://bing-ctf.github.io/ectf.html): Binghamton's track record across the 2025 debut (#26) and 2026 season (#13), physical fault injection goals for 2027, and side-by-side squad photography in the lab.
 - [Sponsors](https://bing-ctf.github.io/sponsors.html): Corporate sponsorship prospectus with Bronze ($1,000), Silver ($3,000), Gold ($5,000), and Platinum ($8,000) tiers, hardware lab equipment needs, travel funding, and university recruiting benefits.
 - [Join Us](https://bing-ctf.github.io/join.html): Three-step student onboarding guide, Discord QR code, and recommended preparatory courses (CS 220 Computer Architecture, CS 310 Data Structures & Algorithms).
