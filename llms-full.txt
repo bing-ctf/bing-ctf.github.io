@@ -1,0 +1,107 @@
+# Binghamton CTF Club (Full Context Document)
+
+> Comprehensive reference document for Binghamton CTF Club and the Binghamton University MITRE eCTF team, prepared for Large Language Model processing, knowledge indexing, and context retrieval.
+
+---
+
+# 1. Overview & Institution
+Binghamton CTF Club is the official student cybersecurity club and competitive Embedded Capture the Flag (eCTF) team representing Binghamton University (State University of New York - SUNY). The organization is based at the Thomas J. Watson College of Engineering and Applied Science within the School of Computing.
+
+In 2026, Binghamton University achieved a historic milestone in collegiate cybersecurity by finishing **#13 globally** out of 114 international university teams in the prestigious MITRE eCTF competition. Binghamton was the **#1 ranked university in New York State** and the only New York institution to place in the global Top 20.
+
+The club meets weekly on Thursdays at 5:00 PM in the Fab Lab located within the Engineering Building on the Binghamton University campus. Membership is free and open to all students across all majors and experience levels.
+
+- Official Domain: https://bing-ctf.github.io/
+- Discord Community: https://discord.gg/Rn5ER6Tw
+- GitHub Organization: https://github.com/bing-ctf
+
+---
+
+# 2. Leadership Roster
+
+### Faculty Advisor & Lead
+- **Name**: Dr. Aravind Prakash
+- **Role**: Associate Professor, School of Computing, Watson College, Binghamton University
+- **Research Areas**: Systems Security, Binary Analysis, Forced Execution, Program Debloating
+- **Contribution**: Directs academic integration of embedded security into the School of Computing curriculum and advises the competitive eCTF squad.
+- **Email**: aprakash@binghamton.edu
+- **Website**: https://www.aravindprakash.com/
+
+### Student Co-Captain
+- **Name**: Samruddhi "Sammy" Deshpande
+- **Role**: 4+1 Master's Student in Computer Science
+- **Competition History**: Competed in both 2025 and 2026 MITRE eCTF campaigns.
+- **Technical Focus**: Defensive firmware architecture, cryptographic authentication protocols, and member onboarding.
+- **Email**: sdeshp11@binghamton.edu
+
+### Student Co-Captain
+- **Name**: Pratik Kamble
+- **Role**: Doctoral Researcher (PhD Student) in Computer Science
+- **Research Areas**: Binary analysis, reverse engineering, software debloating, and systems security.
+- **Competition History**: Co-captain for the 2026 campaign (#13 global finish) and 2027 campaign.
+- **Email**: pkamble1@binghamton.edu
+- **Website**: https://pratikkamble.com
+
+---
+
+# 3. Technical Tracks & Focus Areas
+
+### Embedded & Hardware Security
+Covers microcontroller firmware development, communication protocol auditing (UART, I2C, SPI), logic analyzers, voltage glitching, and physical fault injection. The primary arena for this track is the annual MITRE eCTF competition, where teams design a secure hardware device during the design phase and audit/attack devices engineered by other international universities during the attack phase.
+
+### Binary Exploitation & Reverse Engineering
+Teaches members to disassemble and analyze compiled x86 and ARM binaries, audit legacy C/C++ source code, identify memory corruption vulnerabilities (buffer overflows, format strings, use-after-free), and craft exploits using Ghidra, GDB, and Pwntools.
+
+### Applied Cryptography
+Focuses on the implementation details and potential flaws of modern cryptographic systems. Topics include breaking poorly configured symmetric (AES) and asymmetric (RSA, ECC) algorithms, analyzing Diffie-Hellman key exchanges, and evaluating cryptographic side channels.
+
+### Web Security & Digital Forensics
+Exposes common web vulnerabilities from the OWASP Top 10 (SQL Injection, Server-Side Request Forgery, Cross-Site Scripting), alongside network packet inspection (Wireshark, PCAP analysis) and memory dump triage. The club leverages TryHackMe and PicoCTF for interactive training.
+
+---
+
+# 4. MITRE eCTF Competition Record
+
+### 2025 Debut Season (#26 Globally, #2 in New York)
+In Binghamton University's inaugural season participating in the MITRE Embedded Capture the Flag competition, a student team operating entirely on volunteer hours secured 26th place internationally and 2nd place in New York State.
+
+### 2026 Season (#13 Globally, #1 in New York State)
+In its second competitive year, the Binghamton squad competed against 114 university teams worldwide, protecting intellectual property within simulated semiconductor foundry manufacturing files. Binghamton achieved a final ranking of #13 internationally, suffered zero software defense breaches, and finished as the top-ranked university in New York State.
+
+### 2027 Objective (Global Top 10)
+For the 2027 season, Binghamton CTF is outfitting a dedicated physical hardware security lab in Watson College to specialize in electromagnetic fault injection (EMFI), power side-channel analysis, and physical glitching.
+
+---
+
+# 5. Sponsorship Prospectus
+
+The club offers corporate partnerships across three tiers to support student travel, lab equipment, and weekly meeting supplies:
+
+### Bronze Tier ($1,000 / year)
+- **What Funds Support**: Weekly hack night pizza and soda, plus student AI developer subscriptions.
+- **Corporate Returns**: Logo and link on the club website and GitHub organization, sponsor role and internship posting permissions in the club Discord (100+ members), direct club-wide email announcements for open positions, and an annual certificate of appreciation.
+
+### Silver Tier ($2,000 / year)
+- **What Funds Support**: ChipWhisperer glitching kits, target microcontroller development boards, and USB logic analyzers.
+- **Corporate Returns**: All Bronze benefits, direct recruiting access to student competition engineers, option to host an exclusive campus tech talk or lab workshop, recruiting swag distribution in the Fab Lab, and preferred student connections for summer internships.
+
+### Gold Tier ($3,000 / year)
+- **What Funds Support**: Student hotel, gasoline, and travel expenses to attend the MITRE eCTF competition finals in Bedford, Massachusetts.
+- **Corporate Returns**: All Silver and Bronze benefits, prominent corporate logo on official competition jerseys and lab banners, personalized 1-on-1 candidate recommendations, opportunity to co-host an annual hardware CTF challenge, and executive recognition across university news stories.
+
+---
+
+# 6. Student Onboarding Guide
+
+### Step 1: Join Discord
+Join the official club Discord server at https://discord.gg/Rn5ER6Tw. Introduce yourself in the welcome channel to access meeting announcements, challenge writeups, and team discussion.
+
+### Step 2: Attend Weekly Meetings
+Meetings take place every Thursday at 5:00 PM in the Fab Lab inside the Engineering Building. Students should bring a laptop with a modern web browser or Linux environment.
+
+### Step 3: Compete with Binghamton
+Members practice on platforms like TryHackMe and PicoCTF, collaborate on collegiate online CTFs throughout the academic year, and try out for the semester-long MITRE eCTF embedded security squad.
+
+### Helpful Academic Courses
+- **CS 220 (Computer Architecture)**: Assembly language, registers, processor datapath, and memory hierarchies. Foundational for binary reverse engineering.
+- **CS 310 (Data Structures & Algorithms)**: Algorithmic complexity, memory representation, and pointer manipulation.
